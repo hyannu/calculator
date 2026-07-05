@@ -12,3 +12,8 @@ button{
     grid-template-columns: repeat(4,1fr);
     gap: 15px;
 }
+
+.equal{
+    background: #9c7ae6;
+    color: white;
+}
