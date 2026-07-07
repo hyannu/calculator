@@ -2,6 +2,7 @@ function Solve(val) {
     var v = document.getElementById('res');
     v.value += val;
  }
+
  function Result() {
     var num1 = document.getElementById('res').value;
     try {
