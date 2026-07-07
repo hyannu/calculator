@@ -11,7 +11,7 @@ function Solve(val) {
     } catch {
        document.getElementById('res').value = 'Error';
     }
- }
+}
  function Clear() {
     var inp = document.getElementById('res');
     inp.value = '';
