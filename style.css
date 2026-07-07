@@ -1,27 +1,120 @@
-button{
-    width:70px;
-    height:70px;
-    border-radius:50%;
-    border:none;
-    font-size:28px;
-    cursor:pointer;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
 }
-
-.buttons{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 15px;
+#calc{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#0f172a,#1e293b,#334155);
 }
-
-.equal{
-    background: #9c7ae6;
+#content{
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,.2);
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+    padding:25px;
+}
+#content form input{
+    border:0;
+    outline:0;
+    margin:10px;
+}
+#backspace {
+    background-color: rgb(237, 89, 30);
     color: white;
 }
-
-.operator{
-    color: #6b42d6;
+#res{
+    background:#111827;
+    color:#00ff99;
+    height:70px;
+    border-radius:15px;
+    padding:15px;
+    font-size:32px;
+    font-weight:bold;
+    box-shadow: inset 0 0 10px rgba(0,255,153,.25);
+}
+#clear {
+    background-color: rgb(237, 89, 30);
+    color:white;
+}
+form #output {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0;
+}
+form #output input {
+    text-align: right;
+    flex: 1;
+    font-size: 25px;
 }
 
-.number{
-    color: #00695c;
+
+
+
+#content form input[type="button"]{
+    width:60px;
+    height:60px;
+    border:none;
+    border-radius:15px;
+    background:#374151;
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+
+
+#content form input[type="button"]:hover{
+    background:#4b5563;
+    transform:translateY(-3px);
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+#content form input[type="button"]:active{
+    transform:scale(.95);
+}
+
+input[value="/"],
+input[value="x"],
+input[value="-"],
+input[value="+"],
+input[value="%"]{
+    background:#f97316;
+}
+
+input[value="/"]:hover,
+input[value="x"]:hover,
+input[value="-"]:hover,
+input[value="+"]:hover,
+input[value="%"]:hover{
+    background:#fb923c;
+}
+
+
+input[value="="]{
+    background:#22c55e;
+    color:white;
+}
+
+input[value="="]:hover{
+    background:#16a34a;
+}
+
+
+#clear,#backspace{
+    background:#ef4444;
+    color:white;
+}
+
+#clear:hover,
+#backspace:hover{
+    background:#dc2626;
 }
