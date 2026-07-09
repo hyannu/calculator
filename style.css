@@ -70,7 +70,7 @@ form #output input {
     transition:.3s;
 }
 
- 
+ add interactive hover effects to form buttons
 
 
 #content form input[type="button"]:hover{
