@@ -70,7 +70,7 @@ form #output input {
     transition:.3s;
 }
 
- add interactive hover effects to form buttons
+ /* add interactive hover effects to form buttons */
 
 
 #content form input[type="button"]:hover{
@@ -79,6 +79,7 @@ form #output input {
     box-shadow:0 5px 15px rgba(0,0,0,.3);
 }
 
+/* add active state transform to form buttons */
 #content form input[type="button"]:active{
     transform:scale(.95);
 }
