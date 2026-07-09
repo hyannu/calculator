@@ -83,7 +83,7 @@ form #output input {
 #content form input[type="button"]:active{
     transform:scale(.95);
 }
-
+/*  add distinct styling for calculator operator buttons */
 input[value="/"],
 input[value="x"],
 input[value="-"],
