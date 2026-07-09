@@ -92,6 +92,7 @@ input[value="%"]{
     background:#f97316;
 }
 
+improve hover feedback for calculator operators */
 input[value="/"]:hover,
 input[value="x"]:hover,
 input[value="-"]:hover,
