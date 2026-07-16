@@ -104,12 +104,13 @@ input[value="%"]:hover{
     background:#fb923c;
 }
 
-update equals button with green background and white text
+/* update equals button with green background and white text */
 input[value="="]{
     background:#22c55e;
     color:white;
 }
 
+/* add hover state for equals button */
 input[value="="]:hover{
     background:#16a34a;
 }
