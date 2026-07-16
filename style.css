@@ -80,10 +80,12 @@ form #output input {
 }
 
 /* add active state transform to form buttons */
+
 #content form input[type="button"]:active{
     transform:scale(.95);
 }
 /*  add distinct styling for calculator operator buttons */
+
 input[value="/"],
 input[value="x"],
 input[value="-"],
@@ -92,7 +94,8 @@ input[value="%"]{
     background:#f97316;
 }
 
-improve hover feedback for calculator operators */
+/*improve hover feedback for calculator operators */
+
 input[value="/"]:hover,
 input[value="x"]:hover,
 input[value="-"]:hover,
@@ -101,7 +104,7 @@ input[value="%"]:hover{
     background:#fb923c;
 }
 
-
+update equals button with green background and white text
 input[value="="]{
     background:#22c55e;
     color:white;
