@@ -115,7 +115,7 @@ input[value="="]:hover{
     background:#16a34a;
 }
 
-
+add red background and white text for clear/backspace buttons
 #clear,#backspace{
     background:#ef4444;
     color:white;
