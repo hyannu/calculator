@@ -120,7 +120,7 @@ input[value="="]:hover{
     background:#ef4444;
     color:white;
 }
- add hover effect for clear and backspace buttons
+ /* add hover effect for clear and backspace buttons */
 
 #clear:hover,
 #backspace:hover{
