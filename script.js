@@ -2,7 +2,7 @@ function Solve(val) {
     var v = document.getElementById('res');
     v.value += val;
  }
-
+// implement calculator result evaluation function
  function Result() {
     var num1 = document.getElementById('res').value;
     try {
