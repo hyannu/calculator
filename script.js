@@ -12,6 +12,7 @@ function Solve(val) {
        document.getElementById('res').value = 'Error';
     }
 }
+ add Clear() function to reset input field"
  function Clear() {
     var inp = document.getElementById('res');
     inp.value = '';
