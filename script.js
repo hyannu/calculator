@@ -12,11 +12,12 @@ function Solve(val) {
        document.getElementById('res').value = 'Error';
     }
 }
- add Clear() function to reset input field"
+//  add Clear() function to reset input field
  function Clear() {
     var inp = document.getElementById('res');
     inp.value = '';
  }
+  add backspace functionality to remove last character
  function Back() {
     var ev = document.getElementById('res');
     ev.value = ev.value.slice(0, -1);
