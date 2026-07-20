@@ -17,11 +17,12 @@ function Solve(val) {
     var inp = document.getElementById('res');
     inp.value = '';
  }
-  add backspace functionality to remove last character
+//   add backspace functionality to remove last character
  function Back() {
     var ev = document.getElementById('res');
     ev.value = ev.value.slice(0, -1);
  }
+ Added keyboard support for calculator
  document.addEventListener('keydown', function (event) {
     const key = event.key;
     const validKeys = '0123456789+-*/.%';
