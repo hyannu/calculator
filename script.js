@@ -22,11 +22,11 @@ function Solve(val) {
     var ev = document.getElementById('res');
     ev.value = ev.value.slice(0, -1);
  }
- Added keyboard support for calculator
+//  Added keyboard support for calculator
  document.addEventListener('keydown', function (event) {
     const key = event.key;
     const validKeys = '0123456789+-*/.%';
-    if (validKeys.includes(key)) {
+    if (validKeys.includes(key)) {      // Added keyboard support to calculator
        Solve(key === '*' ? 'x' : key);
     } else if (key === 'Enter') {
        Result();
