@@ -1,4 +1,4 @@
-Add global CSS reset styles
+/* Add global CSS reset styles */
 
 *{
     margin:0;
@@ -6,6 +6,7 @@ Add global CSS reset styles
     box-sizing:border-box;
     font-family:'Poppins',sans-serif;
 }
+"Style calculator wrapper with flexbox and gradient background
 #calc{
     width:100%;
     height:100vh;
